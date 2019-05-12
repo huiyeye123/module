@@ -5,3 +5,8 @@
     margin: 20px auto;
     position: absolute;
 }
+.file{
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid red;
+}
