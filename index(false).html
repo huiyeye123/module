@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./img/1.jpg" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <script src="js/require.js" data-main="js/main" defer async="true"></script>
+    <title>cart 模块化</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .goodList img{
+            width: 300px;
+            height: 300px;
+        }   
+        .goodInfo{
+            display: inline-block;
+        }
+        #buy{
+            position: fixed;
+            top: 300px;
+            right: 0px;
+        }
+    </style>
+</head>
+<body>
+    hello world
+    <hr>
+    <br>
+    <hr>
+    <br>
+    <hr>
+    <div class="goodList">
+        <div class="goodInfo" data-good-id="spl"> 
+            <img src="./img/1.jpg" alt="img1.jpg" title="img">
+            <br>
+            <span>苹果</span>
+            <span>40 RMB</span>
+            <input type="button" class="addToCart" id="" value="加入购物车" >
+        </div> 
+        <div class="goodInfo" data-good-id="sp2"> 
+            <img src="./img/2.jpg" alt="img2.jpg" title="img">
+            <br>
+            <span>香蕉</span>
+            <span>30 RMB</span>
+            <input type="button" class="addToCart" id="" value="加入购物车" >
+        </div> 
+        <div class="goodInfo" data-good-id="sp3"> 
+                <img src="./img/3.jpg" alt="img3.jpg" title="img">
+                <br>
+                <span>梨</span>
+                <span>120 RMB</span>
+                <input type="button" class="addToCart" id="" value="加入购物车" >
+        </div> 
+    </div>
+<input type="button" value="购物车(0)" id="buy">
+
+<div id="box">box</div>
+
+
+</body>
+</html>
